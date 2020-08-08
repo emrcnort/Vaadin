@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Offline | Vaadin Example</title>
+  <link rel="stylesheet" href="./styles/offline.css"> 
+</head>
+<body>
+
+<div class="content">
+  <img src="./images/offline.png" alt="VaadinExample is offline" class="offline-image"/> 
+  <h1>ÇEVRİMDIŞISINIZ</h1>
+  <p>İnternet bağlantınıza erişilemiyor. Bağlantınızın düzgün çalıştığından emin olup tekrar deneyin.</p>
+</div>
+<script>
+  window.addEventListener('online', location.reload);
+</script> 
+</body>
+</html>
